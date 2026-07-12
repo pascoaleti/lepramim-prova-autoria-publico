@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 430" role="img" aria-labelledby="title desc">
+  <title id="title">Logotipo LePraMim</title>
+  <desc id="desc">Icone com balao de conversa, livro aberto, ondas sonoras e o nome LePraMim.</desc>
+  <rect width="1500" height="430" fill="#FFFFFF"/>
+  <g transform="translate(58 38) scale(.345)">
+    <rect width="1024" height="1024" rx="224" fill="#1565C0"/>
+    <circle cx="806" cy="230" r="92" fill="#FF9800"/>
+    <path fill="#FFFFFF" d="M214 238h596c66 0 120 54 120 120v298c0 66-54 120-120 120H516L358 884c-27 19-65 0-65-33v-75h-79c-66 0-120-54-120-120V358c0-66 54-120 120-120Z"/>
+    <path fill="#FF9800" d="M292 414c85-14 158 0 220 44v216c-62-44-135-58-220-44V414Z"/>
+    <path fill="#FF9800" d="M512 458c62-44 135-58 220-44v216c-85-14-158 0-220 44V458Z"/>
+    <path fill="none" stroke="#1565C0" stroke-linecap="round" stroke-linejoin="round" stroke-width="28" d="M292 414c85-14 158 0 220 44m0 0c62-44 135-58 220-44M292 414v216c85-14 158 0 220 44m0-216v216m0 0c62-44 135-58 220-44V414"/>
+    <path fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-width="18" d="M346 486c42-2 78 4 110 18M346 550c42-2 78 4 110 18M568 504c32-14 68-20 110-18M568 568c32-14 68-20 110-18"/>
+    <path fill="none" stroke="#1565C0" stroke-linecap="round" stroke-width="32" d="M744 472c30 28 30 76 0 104"/>
+    <path fill="none" stroke="#FF9800" stroke-linecap="round" stroke-width="32" d="M802 430c68 70 68 188 0 258"/>
+  </g>
+  <text x="460" y="198" fill="#1565C0" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="800">LePra</text>
+  <text x="790" y="198" fill="#FF9800" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="800">Mim</text>
+  <text x="464" y="275" fill="#1F2937" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600">Lê para você. Entende com facilidade.</text>
+</svg>
