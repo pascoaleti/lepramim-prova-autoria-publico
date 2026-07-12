@@ -1,8 +1,8 @@
-# LePraMim - Prova publica de autoria
+# LePraMim App
 
-Registro publico de autoria, identidade visual, materiais de publicacao e paginas legais do aplicativo **LePraMim**.
+**LePraMim** e um aplicativo Android de acessibilidade que transforma textos do celular em voz alta.
 
-O LePraMim e um aplicativo Android de acessibilidade criado para transformar textos do celular em voz alta. Ele foi pensado para pessoas que nao sabem ler, idosos, pessoas com baixa alfabetizacao, pessoas com dificuldade de leitura e familiares ou cuidadores que querem dar mais autonomia no uso do celular.
+Ele foi criado para ajudar pessoas que nao sabem ler, idosos, pessoas com baixa alfabetizacao, pessoas com dificuldade de leitura e familiares ou cuidadores que querem dar mais autonomia no uso do celular.
 
 ## Projeto
 
@@ -15,7 +15,7 @@ O LePraMim e um aplicativo Android de acessibilidade criado para transformar tex
 - Versao registrada no projeto local: `0.4.8`
 - Version code registrado no projeto local: `23`
 - SDK alvo: Android SDK 35
-- Data deste registro publico: **12/07/2026**
+- Data do registro publico: **12/07/2026**
 - ID de referencia do projeto Codex: `019f298c-509f-7501-a396-692c1df28704`
 
 ## O que o LePraMim faz
@@ -29,7 +29,7 @@ O app ajuda a pessoa a ouvir textos do dia a dia em portugues do Brasil:
 
 O fluxo principal e simples: o familiar ou cuidador configura o aplicativo, ativa o servico de acessibilidade do Android e a pessoa toca no botao **OUVIR** para escutar o texto em voz alta.
 
-## Recursos registrados
+## Recursos
 
 - Interface com botoes grandes e alto contraste.
 - Leitura em voz alta com Text-to-Speech em portugues do Brasil.
@@ -56,9 +56,9 @@ O fluxo principal e simples: o familiar ou cuidador configura o aplicativo, ativ
 
 ## Observacao de seguranca
 
-Este repositorio e um registro publico de autoria e publicacao. Ele nao inclui keystore, senhas, tokens, arquivos `.env`, credenciais, builds AAB/APK nem arquivos locais sensiveis do projeto Android.
+Este repositorio publico nao inclui keystore, senhas, tokens, arquivos `.env`, credenciais, builds AAB/APK nem arquivos locais sensiveis do projeto Android.
 
-## Links previstos
+## Links
 
 - Site do desenvolvedor: https://pascoal.eti.br/
 - Pagina do app: https://pascoal.eti.br/lepramim/
