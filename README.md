@@ -1,4 +1,26 @@
-# LePraMim Android
+<div align="center">
+  <img src="play-store/icon-512.png" alt="LePraMim" width="120" height="120">
+
+  <h1>LePraMim</h1>
+
+  <p><strong>O celular lê textos em voz alta para quem precisa ouvir.</strong></p>
+
+  <p>
+    <a href="https://pascoal.eti.br/lepramim"><img alt="Website" src="https://img.shields.io/badge/WEBSITE-PASCOAL.ETI.BR-0057D9?style=for-the-badge"></a>
+    <img alt="Android" src="https://img.shields.io/badge/ANDROID-NATIVO-16B957?style=for-the-badge">
+    <img alt="Java" src="https://img.shields.io/badge/JAVA-APP-0A2342?style=for-the-badge">
+    <img alt="Versão" src="https://img.shields.io/badge/VERSAO-0.5.4-003B8F?style=for-the-badge">
+  </p>
+
+  <p>
+    <a href="mailto:site1.contato@gmail.com"><img alt="Suporte" src="https://img.shields.io/badge/SUPORTE-EMAIL-6B7280?style=for-the-badge"></a>
+    <a href="https://pascoal.eti.br/lepramim/privacidade"><img alt="Privacidade" src="https://img.shields.io/badge/PRIVACIDADE-POLITICA-0057D9?style=for-the-badge"></a>
+    <a href="https://pascoal.eti.br/lepramim/termos"><img alt="Termos" src="https://img.shields.io/badge/TERMOS-DE_USO-16B957?style=for-the-badge"></a>
+    <img alt="Status" src="https://img.shields.io/badge/PLAY_STORE-TESTE_FECHADO-0A2342?style=for-the-badge">
+  </p>
+</div>
+
+## O que é
 
 App Android nativo em Java para acessibilidade. O LePraMim lê textos em voz alta para pessoas com baixa alfabetização, idosos e pessoas com dificuldade de leitura.
 
