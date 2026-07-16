@@ -1,0 +1,17 @@
+<resources>
+    <color name="lepramim_blue">#0057D9</color>
+    <color name="lepramim_blue_dark">#003B8F</color>
+    <color name="lepramim_blue_soft">#EAF4FF</color>
+    <color name="lepramim_green">#16B957</color>
+    <color name="lepramim_green_dark">#0A8F3D</color>
+    <color name="lepramim_green_soft">#E8F8EF</color>
+    <color name="lepramim_orange">#FF9800</color>
+    <color name="lepramim_orange_dark">#D86600</color>
+    <color name="lepramim_yellow">#FFD166</color>
+    <color name="lepramim_teal">#16B957</color>
+    <color name="lepramim_teal_soft">#E8F8EF</color>
+    <color name="lepramim_white">#FFFFFF</color>
+    <color name="lepramim_ink">#0A2342</color>
+    <color name="lepramim_muted">#6B7280</color>
+    <color name="lepramim_soft">#F5FAFF</color>
+</resources>

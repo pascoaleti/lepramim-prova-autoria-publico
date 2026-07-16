@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Keep the complete mark inside the adaptive icon safe zone. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,25C20.6,25 17,28.6 17,33V62C17,66.4 20.6,70 25,70H34V79L46,70H70C74.4,70 78,66.4 78,62V33C78,28.6 74.4,25 70,25Z" />
+
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M29,39C36.7,37.8 43.4,39 49,43V61.5C43.4,57.8 36.7,56.7 29,58V39Z" />
+
+    <path
+        android:fillColor="#FFB020"
+        android:pathData="M53,43C58.6,39 65.3,37.8 73,39V58C65.3,56.7 58.6,57.8 53,61.5V43Z" />
+
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M29,39C36.7,37.8 43.4,39 49,43V61.5C43.4,57.8 36.7,56.7 29,58V39ZM53,43C58.6,39 65.3,37.8 73,39V58C65.3,56.7 58.6,57.8 53,61.5V43ZM51,42V63"
+        android:strokeColor="#083B75"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.4" />
+
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M34,46H44M34,51.5H44M58,46H68M58,51.5H68"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="2.8" />
+
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M82,40C87.5,46 87.5,54 82,60M88,34C97,43.5 97,56.5 88,66"
+        android:strokeColor="#00A896"
+        android:strokeLineCap="round"
+        android:strokeWidth="4.2" />
+</vector>

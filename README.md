@@ -1,66 +1,85 @@
-# LePraMim App
+# LePraMim Android
 
-**LePraMim** e um aplicativo Android de acessibilidade que transforma textos do celular em voz alta.
+App Android nativo em Java para acessibilidade. O LePraMim lê textos em voz alta para pessoas com baixa alfabetização, idosos e pessoas com dificuldade de leitura.
 
-Ele foi criado para ajudar pessoas que nao sabem ler, idosos, pessoas com baixa alfabetizacao, pessoas com dificuldade de leitura e familiares ou cuidadores que querem dar mais autonomia no uso do celular.
+## Produto
 
-## Projeto
+O fluxo principal não é a câmera. A câmera é importante, mas secundária.
 
-- Nome do app: **LePraMim**
-- Nome de loja: **LePraMim: Leitor de Texto**
-- Desenvolvedor: **Pascoal Eti**
-- Contato: **devs@pascoal.eti.br**
-- Plataforma: Android nativo em Java
-- Pacote Android: `com.lepramim.app`
-- Versao registrada no projeto local: `0.4.8`
-- Version code registrado no projeto local: `23`
-- SDK alvo: Android SDK 35
-- Data do registro publico: **12/07/2026**
-- ID de referencia do projeto Codex: `019f298c-509f-7501-a396-692c1df28704`
+O foco do app é ajudar a pessoa quando ela recebe texto no próprio celular:
 
-## O que o LePraMim faz
+1. O familiar/cuidador instala e configura.
+2. O cuidador ativa o Serviço de Acessibilidade.
+3. A pessoa abre WhatsApp, SMS, Gmail, navegador ou outro app.
+4. Ela toca no botão amarelo OUVIR.
+5. O LePraMim lê e, quando configurado, explica o texto em palavras simples.
 
-O app ajuda a pessoa a ouvir textos do dia a dia em portugues do Brasil:
+## Implementado
 
-- mensagens e textos visiveis na tela do celular;
-- textos em prints, fotos e imagens;
-- papeis, avisos, cartas, boletos, placas e documentos simples;
-- conteudos que a pessoa quer compreender com apoio de voz.
+- App Android nativo em Java.
+- Onboarding com modo cuidador/familiar e modo usuário.
+- Botões grandes, alto contraste e português do Brasil.
+- Text-to-Speech com preferência por voz pt-BR.
+- Ajustes de velocidade e tom de voz.
+- Serviço de Acessibilidade.
+- Botão flutuante arrastável com posição salva.
+- Toque simples para ler, toque duplo para repetir e segurar para parar.
+- Leitura inteligente local com `SmartReadingEngine`.
+- Detecção de boleto, valor, vencimento, consulta, entrega, código, senha, PIX, banco, link suspeito e golpe.
+- Modo Seguro ligado por padrão.
+- OCR com ML Kit para foto/print.
+- Google Play Billing com mensal e anual.
+- `BillingRepository` e `EntitlementManager`.
+- Backend preparado em `/server` para validação de assinatura.
+- Documentação de Play Store em `/docs`.
+- Testes unitários para leitura inteligente e limite do plano grátis.
 
-O fluxo principal e simples: o familiar ou cuidador configura o aplicativo, ativa o servico de acessibilidade do Android e a pessoa toca no botao **OUVIR** para escutar o texto em voz alta.
+## Produtos esperados na Play Console
 
-## Recursos
+- Mensal: `lepramim_plus_monthly`
+- Anual: `lepramim_plus_annual`
 
-- Interface com botoes grandes e alto contraste.
-- Leitura em voz alta com Text-to-Speech em portugues do Brasil.
-- Ajuste de velocidade e tom de voz.
-- Servico de acessibilidade para ler textos visiveis em outros aplicativos quando solicitado.
-- Botao flutuante arrastavel.
-- Toque simples para ler, toque duplo para repetir e toque longo para parar.
-- OCR com ML Kit para fotos e prints.
-- Leitura inteligente local para ajudar a identificar boleto, valor, vencimento, consulta, entrega, codigo, senha, PIX, banco, link suspeito e possivel golpe.
-- Modo Seguro ativado por padrao.
-- LePraMim Plus opcional via Google Play Billing.
-- Sem anuncios.
+## Rodar build
 
-## Materiais neste repositorio
+Este projeto não possui `gradlew` no momento. Nesta máquina, o Gradle localizado é:
 
-- `AUTORIA.md`: declaracao de autoria e escopo do registro.
-- `POLITICA_PRIVACIDADE.md`: Politica de Privacidade do LePraMim.
-- `TERMOS_USO.md`: Termos de Uso do LePraMim.
-- `CHANGELOG.md`: historico de evolucao do app.
-- `MANIFESTO_ARQUIVOS.md`: lista dos materiais incluidos.
-- `assets/`: marca, icone e imagem principal.
-- `screenshots/`: imagens usadas para apresentacao e Play Store.
-- `docs/`: copy de Play Store, declaracao de acessibilidade e textos de publicacao.
+```powershell
+& 'C:\Users\SEU_USUARIO\.gradle\wrapper\dists\gradle-9.3.1-bin\23ovyewtku6u96viwx3xl3oks\gradle-9.3.1\bin\gradle.bat' :app:assembleDebug
+```
 
-## Observacao de seguranca
+## Testes
 
-Este repositorio publico nao inclui keystore, senhas, tokens, arquivos `.env`, credenciais, builds AAB/APK nem arquivos locais sensiveis do projeto Android.
+```powershell
+& 'C:\Users\SEU_USUARIO\.gradle\wrapper\dists\gradle-9.3.1-bin\23ovyewtku6u96viwx3xl3oks\gradle-9.3.1\bin\gradle.bat' :app:testDebugUnitTest
+```
 
-## Links
+## Release
 
-- Site do desenvolvedor: https://pascoal.eti.br/
-- Pagina do app: https://pascoal.eti.br/lepramim/
-- Termos: https://pascoal.eti.br/lepramim/termos/
-- Privacidade: https://pascoal.eti.br/lepramim/privacidade/
+```powershell
+& 'C:\Users\SEU_USUARIO\.gradle\wrapper\dists\gradle-9.3.1-bin\23ovyewtku6u96viwx3xl3oks\gradle-9.3.1\bin\gradle.bat' :app:bundleRelease
+```
+
+Arquivos sensíveis ficam fora do versionamento:
+
+- `keystore.properties`
+- `keystore/*.jks`
+- `server/.env`
+
+## Documentação importante
+
+- `docs/audit.md`
+- `docs/play-store-accessibility.md`
+- `docs/privacy.md`
+- `docs/test-plan.md`
+- `docs/release-checklist.md`
+- `docs/play-store-copy.md`
+
+## Configurações externas pendentes
+
+- Produtos de assinatura ativos na Play Console.
+- Teste fechado/produção conforme regra do Google Play.
+- Backend HTTPS para validar `purchaseToken`.
+- Conta de serviço da Google Play Developer API.
+- URL real em `BuildConfig.ENTITLEMENT_BASE_URL`.
+
+Nenhuma chave, token, keystore ou credencial deve ser colocada no código.

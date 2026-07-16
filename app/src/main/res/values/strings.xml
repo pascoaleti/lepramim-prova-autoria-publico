@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LePraMim</string>
+    <string name="voice_intro">Eu leio textos do celular em voz alta. Primeiro toque em Ativar no celular. Depois abra qualquer aplicativo. Toque no botão amarelo para ler a tela, ou arraste o botão até um texto e solte para ouvir só aquele ponto.</string>
+    <string name="voice_accessibility">Vou abrir as configurações. Procure LePraMim leitor de tela, ative o serviço e volte. Depois o botão amarelo aparece por cima dos outros aplicativos.</string>
+    <string name="voice_screen_reader">Abra WhatsApp, mensagem, banco, navegador ou qualquer aplicativo com texto. Toque no botão amarelo para ler a tela, ou arraste até o texto e solte.</string>
+    <string name="voice_reader_enabled">Leitor ativado. Abra qualquer aplicativo. Toque no botão amarelo para ler a tela, ou arraste o botão até o texto e solte.</string>
+    <string name="voice_reader_disabled">O leitor ainda está desligado. Toque em Ativar leitor e ligue LePraMim nas configurações.</string>
+    <string name="voice_camera">Aponte a câmera para o texto e tire a foto. Eu vou tentar ler em voz alta.</string>
+    <string name="voice_gallery">Escolha uma foto, print ou imagem com texto. Eu vou ler para você.</string>
+    <string name="voice_no_camera">Não encontrei um aplicativo de câmera neste aparelho.</string>
+    <string name="voice_ocr_processing">Recebi a imagem. Estou procurando texto para ler.</string>
+    <string name="voice_ocr_empty">Não consegui encontrar texto nessa imagem. Tente tirar a foto mais perto, com boa luz e sem cortar as palavras.</string>
+    <string name="voice_ocr_error">Não consegui ler essa imagem agora. Tente outra foto mais nítida.</string>
+    <string name="voice_explain_empty">Primeiro fotografe ou escolha uma imagem com texto. Depois eu leio e explico com palavras fáceis.</string>
+    <string name="voice_explain_sample">Eu leio o texto e falo o principal com palavras simples.</string>
+    <string name="voice_help">O LePraMim é para quem não sabe ler ou tem dificuldade. Primeiro toque em Ativar no celular. Depois abra WhatsApp, banco, mensagem ou outro aplicativo. Toque no botão amarelo para ler a tela, ou arraste até um texto e solte. Se recebeu print ou foto, toque em Ler print. Para papel, boleto ou carta, toque em Ler papel.</string>
+    <string name="voice_listening">Estou ouvindo. Pode falar.</string>
+    <string name="voice_not_understood">Não entendi. Você pode dizer ativar leitor, fotografar, ler foto, repetir ou ajuda.</string>
+    <string name="voice_no_speech">Este aparelho não está com reconhecimento de voz disponível. Você ainda pode tocar nos botões grandes.</string>
+    <string name="voice_mic_denied">Para usar comando de voz, permita o microfone. Você ainda pode tocar nos botões grandes.</string>
+    <string name="voice_subscription_intro">A leitura básica é grátis para testar. O plano Plus é opcional e tem opção mensal ou anual para uso sem limite.</string>
+    <string name="voice_subscription_needed">A leitura básica está liberada. Assine Plus mensal ou anual só se quiser usar sem limite.</string>
+    <string name="voice_subscription_start">Vou abrir a assinatura Plus pela Play Store.</string>
+    <string name="voice_subscription_start_monthly">Vou abrir o plano mensal Plus pela Play Store.</string>
+    <string name="voice_subscription_start_annual">Vou abrir o plano anual Plus pela Play Store. Ele costuma ser o melhor valor.</string>
+    <string name="voice_subscription_restoring">Vou procurar sua assinatura na Play Store.</string>
+    <string name="voice_subscription_active">Plano Plus ativo.</string>
+    <string name="voice_subscription_pending">Pagamento pendente. Quando a Play Store confirmar, o Plus será liberado.</string>
+    <string name="voice_subscription_not_found">Não encontrei assinatura ativa nesta conta da Play Store.</string>
+    <string name="voice_subscription_unavailable">Assinatura indisponível agora. Tente novamente pela Play Store.</string>
+    <string name="voice_subscription_product_missing">A assinatura ainda está sendo liberada pela Play Store. A leitura grátis continua funcionando.</string>
+    <string name="voice_subscription_canceled">Assinatura cancelada. Você pode tentar de novo quando quiser.</string>
+    <string name="accessibility_service_name">LePraMim leitor de tela</string>
+    <string name="accessibility_service_summary">Lê em voz alta textos visíveis em qualquer aplicativo.</string>
+    <string name="accessibility_service_description">Serviço de acessibilidade do LePraMim para pessoas que não sabem ler ou têm dificuldade de interpretação. Ele lê em voz alta textos visíveis na tela, notificações e conteúdos de aplicativos quando a pessoa toca em Ouvir.</string>
+</resources>

@@ -1,0 +1,69 @@
+plugins {
+    id "com.android.application"
+}
+
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystoreProperties = new Properties()
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+def backendBaseUrl = providers.gradleProperty("lepramimBackendBaseUrl")
+        .orElse(providers.environmentVariable("LEPRAMIM_BACKEND_BASE_URL"))
+        .orElse("")
+        .get()
+def buildConfigString = { value ->
+    "\"${value.replace("\\", "\\\\").replace("\"", "\\\"")}\""
+}
+
+android {
+    namespace "com.lepramim.app"
+    compileSdk 35
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    defaultConfig {
+        applicationId "com.lepramim.app"
+        minSdk 26
+        targetSdk 35
+        versionCode 29
+        versionName "0.5.4"
+        buildConfigField "String", "ENTITLEMENT_BASE_URL", buildConfigString(backendBaseUrl)
+    }
+
+    signingConfigs {
+        release {
+            if (keystorePropertiesFile.exists()) {
+                storeFile rootProject.file(keystoreProperties["storeFile"])
+                storePassword keystoreProperties["storePassword"]
+                keyAlias keystoreProperties["keyAlias"]
+                keyPassword keystoreProperties["keyPassword"]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            // Hotfix 0.4.2: R8 estava removendo construtores usados por reflexao no ML Kit.
+            // Reativar minificacao somente com regras verificadas em aparelho real/emulador.
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+}
+
+dependencies {
+    def billing_version = "9.1.0"
+    def camerax_version = "1.4.2"
+    implementation "androidx.activity:activity:1.10.1"
+    implementation "androidx.camera:camera-core:$camerax_version"
+    implementation "androidx.camera:camera-camera2:$camerax_version"
+    implementation "androidx.camera:camera-lifecycle:$camerax_version"
+    implementation "androidx.camera:camera-view:$camerax_version"
+    implementation "com.android.billingclient:billing:$billing_version"
+    implementation "com.google.mlkit:text-recognition:16.0.1"
+    testImplementation "junit:junit:4.13.2"
+}
