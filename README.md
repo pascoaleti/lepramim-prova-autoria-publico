@@ -6,17 +6,24 @@
   <p><strong>O celular lê textos em voz alta para quem precisa ouvir.</strong></p>
 
   <p>
-    <a href="https://pascoal.eti.br/lepramim"><img alt="Website" src="https://img.shields.io/badge/WEBSITE-PASCOAL.ETI.BR-0057D9?style=for-the-badge"></a>
-    <img alt="Android" src="https://img.shields.io/badge/ANDROID-NATIVO-16B957?style=for-the-badge">
-    <img alt="Java" src="https://img.shields.io/badge/JAVA-APP-0A2342?style=for-the-badge">
-    <img alt="Versão" src="https://img.shields.io/badge/VERSAO-0.5.4-003B8F?style=for-the-badge">
+    <a href="https://pascoal.eti.br/lepramim/"><img alt="Site oficial" src="https://img.shields.io/badge/SITE_OFICIAL-LePraMim-0057D9?style=for-the-badge"></a>
+    <img alt="Android nativo" src="https://img.shields.io/badge/ANDROID-Nativo-16B957?style=for-the-badge">
+    <img alt="Java" src="https://img.shields.io/badge/JAVA-App-0A2342?style=for-the-badge">
+    <img alt="Versão 0.5.4" src="https://img.shields.io/badge/VERSAO-0.5.4-003B8F?style=for-the-badge">
   </p>
 
   <p>
-    <a href="mailto:site1.contato@gmail.com"><img alt="Suporte" src="https://img.shields.io/badge/SUPORTE-EMAIL-6B7280?style=for-the-badge"></a>
-    <a href="https://pascoal.eti.br/lepramim/privacidade"><img alt="Privacidade" src="https://img.shields.io/badge/PRIVACIDADE-POLITICA-0057D9?style=for-the-badge"></a>
-    <a href="https://pascoal.eti.br/lepramim/termos"><img alt="Termos" src="https://img.shields.io/badge/TERMOS-DE_USO-16B957?style=for-the-badge"></a>
-    <img alt="Status" src="https://img.shields.io/badge/PLAY_STORE-TESTE_FECHADO-0A2342?style=for-the-badge">
+    <a href="mailto:devs@pascoal.eti.br"><img alt="Suporte" src="https://img.shields.io/badge/SUPORTE-devs@pascoal.eti.br-6B7280?style=for-the-badge"></a>
+    <a href="https://pascoal.eti.br/lepramim/privacidade"><img alt="Politica de privacidade" src="https://img.shields.io/badge/PRIVACIDADE-Pol%C3%ADtica-0057D9?style=for-the-badge"></a>
+    <a href="https://pascoal.eti.br/lepramim/termos"><img alt="Termos de uso" src="https://img.shields.io/badge/TERMOS-De_uso-16B957?style=for-the-badge"></a>
+    <img alt="Status Play Store" src="https://img.shields.io/badge/PLAY_STORE-Teste_fechado-0A2342?style=for-the-badge">
+  </p>
+
+  <p>
+    <a href="https://pascoal.eti.br/lepramim/">Site oficial</a> ·
+    <a href="mailto:devs@pascoal.eti.br">Suporte</a> ·
+    <a href="https://pascoal.eti.br/lepramim/privacidade">Privacidade</a> ·
+    <a href="https://pascoal.eti.br/lepramim/termos">Termos</a>
   </p>
 </div>
 
