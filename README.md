@@ -41,23 +41,25 @@ O foco do app é ajudar a pessoa quando ela recebe texto no próprio celular:
 
 ## Rodar build
 
-Este projeto não possui `gradlew` no momento. Nesta máquina, o Gradle localizado é:
+Use o Gradle Wrapper incluído no projeto:
 
 ```powershell
-& 'C:\Users\SEU_USUARIO\.gradle\wrapper\dists\gradle-9.3.1-bin\23ovyewtku6u96viwx3xl3oks\gradle-9.3.1\bin\gradle.bat' :app:assembleDebug
+.\gradlew.bat :app:assembleDebug
 ```
 
 ## Testes
 
 ```powershell
-& 'C:\Users\SEU_USUARIO\.gradle\wrapper\dists\gradle-9.3.1-bin\23ovyewtku6u96viwx3xl3oks\gradle-9.3.1\bin\gradle.bat' :app:testDebugUnitTest
+.\gradlew.bat :app:testDebugUnitTest
 ```
 
 ## Release
 
 ```powershell
-& 'C:\Users\SEU_USUARIO\.gradle\wrapper\dists\gradle-9.3.1-bin\23ovyewtku6u96viwx3xl3oks\gradle-9.3.1\bin\gradle.bat' :app:bundleRelease
+.\gradlew.bat :app:bundleRelease
 ```
+
+Para gerar release assinado, crie `keystore.properties` localmente a partir de `keystore.properties.example`. Nunca versionar senha, keystore ou token.
 
 Arquivos sensíveis ficam fora do versionamento:
 
